@@ -35,7 +35,7 @@ var test = function(){
 
     world.add(renderer);
     world.add(ship);
-    world.add(gravity);
+    //world.add(gravity);
 
     world.add( Physics.behavior('edge-collision-detection', {
         aabb: bounds,
